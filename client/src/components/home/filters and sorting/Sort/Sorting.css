@@ -1,0 +1,10 @@
+.sort{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+
+}
+.sort-container{
+    justify-content: space-around;
+    display: flex;
+}

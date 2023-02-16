@@ -1,0 +1,19 @@
+.formContainer{    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 27%;
+    height: 525px;
+    margin-left: 100px;
+}
+.inputsContainer{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 10px;
+}
+.inputsContainer label{
+    font-size: 17px;
+    color: #61502E;
+    display: flex;
+}

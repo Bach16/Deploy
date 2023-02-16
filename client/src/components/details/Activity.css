@@ -1,0 +1,58 @@
+.activity{
+    background-color: #ffffff;
+    border-radius: 20px;
+    width: 320px;
+    height: 320px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+    margin: 20px;
+}
+.activity-name{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 35%;
+    border-radius: 20px 20px 0px 0px;
+    background: white;
+    color: rgb(36, 36, 36);
+}
+.activity hr{
+    width: 80%;
+    margin-bottom: 40px;
+}
+.activity-atributes-container{
+    width: 100%;
+    border-radius: 0 0 20px 20px;
+    background: #EB6440;
+    color: white;
+    height: 25%;
+    box-shadow: 0 -3px 5px rgba(0,0,0,0.12), 0 0px 2px rgba(0,0,0,0.24);
+    display: flex;
+    flex-direction: column;
+}
+.activity-atributes p{
+    font-size: 20px;
+    margin: 0;
+}
+
+.activity-atributes{
+    height: 80px;
+}
+.seasons-div{
+    display: flex;
+    justify-content: center;
+}
+.seasons-div p {
+    margin: 0px 15px;
+}
+.activity-atributes h3 {
+    margin: 0px 0px;
+}
+
+.activity-atributes-container h3 {
+    margin: 7px 0 7px;
+}
+.asdas{
+    display: flex;
+    justify-content: space-evenly;
+}

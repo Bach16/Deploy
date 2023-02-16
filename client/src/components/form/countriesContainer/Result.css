@@ -1,0 +1,28 @@
+.result{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    min-height: 65px;
+    width: 370px;
+    margin: 19px 10px;
+    border-radius: 30px;
+}
+.result button{
+    display: grid;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 11px;
+    background: #EB6440;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.result p{
+ font-size: 17px;
+}
+.text-container{
+    width: 400px;
+}

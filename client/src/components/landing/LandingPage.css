@@ -1,0 +1,48 @@
+.landing {
+    align-items: center;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background: #EFF5F5;
+}
+.world-image{    
+    height: 350px;
+    width: 350px;
+    background-image: url("../../Images/App.gif");
+    background-repeat: no-repeat ;
+    background-size:contain;
+    background-position:top ;
+}
+.landing br{
+color: black;
+}
+
+.landing-text{
+    width: 300px;
+    padding: 20px;
+    text-align: left;
+}
+.landing-text p {
+    font-size: 20px;
+}
+.landing-text h1 {
+    font-size: 40px;
+}
+
+.landing-text button{
+    margin-top: 10px;
+    width: 55%;
+    height: 40px;
+    font-size: 15px;
+    border-radius: 20px;
+    background: #EB6440;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+hr{
+color: #497174;
+width: 335px;
+}
+

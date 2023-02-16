@@ -1,0 +1,38 @@
+.alphabetically{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    height: 35px;
+    width: 120px;
+    padding: 7px;    
+    cursor: pointer;
+    border-radius: 10px;
+    background: #D6E4E5;
+    color: rgb(48, 48, 48);
+}
+.alphabetically:hover {
+    background: #EB6440;
+    color: white;
+}
+.select {
+    display: flex;
+}
+.option:hover {
+    color: #D6E4E5;
+  }
+.alphabetically:focus{
+    outline: none;
+}
+
+.alphabetically::selection{
+    outline: none;
+    background: #D6E4E5;
+    color:rgb(48, 48, 48);
+
+}
+.option{
+    cursor: pointer;
+    box-shadow: none;
+    border: none;
+} 

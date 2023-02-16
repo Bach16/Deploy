@@ -1,0 +1,25 @@
+.Pagination{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #334142;
+}
+.Pagination button{
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #EB6440;
+    color: white;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+}
+.Pagination button:disabled{
+    margin: 20px;
+    border: none;
+    border-radius: 10px;
+    background: #D6E4E5;
+    color: #334142;
+    width: 30px;
+    height: 30px;
+}

@@ -1,0 +1,25 @@
+.seasonInput{
+    height: 130px;
+}
+.seasonInput span{
+    display: flex ;
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    text-align: left;
+    margin: 10px 0px 20px 0px;
+}
+#checkbox-error-text{
+    visibility: hidden;
+}
+.seasonInput label{
+    font-size: 14px;
+    color: gray; 
+    display: flex;
+}
+.seasonInput input{
+    padding: 15px;
+    margin: 10px 0px;
+    width: 255px;
+    border: 1px solid #B99B6B;
+}

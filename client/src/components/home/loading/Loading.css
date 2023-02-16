@@ -1,0 +1,8 @@
+.loading{
+    background-color: #ffffff;
+    background-image: url("https://moveup.co.za/wp-content/uploads/2018/07/earth-.gif");
+    background-size:contain ;
+    background-position: center;
+    height: 100vh;
+    background-repeat: no-repeat;
+}

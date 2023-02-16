@@ -1,0 +1,27 @@
+.formInput input{
+    padding: 15px;
+    margin: 15px 0px;
+    border-radius: 5px;
+    width: 250px;
+    border: 1px solid gray;
+
+}
+.formInput label{
+    font-size: 15px;
+    color: #B99B6B; 
+    display: flex;
+}
+.formInput span{
+    font-size: 12px;
+    padding: 3px;
+    color: red;
+    text-align: left;
+    margin-bottom: 10px;
+}
+.formInput{
+    display: flex;
+    flex-direction: column;
+}
+#errorText{
+    visibility: hidden;
+}

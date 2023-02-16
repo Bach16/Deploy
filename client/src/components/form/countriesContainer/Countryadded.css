@@ -1,0 +1,30 @@
+.Selected-countries{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border: 1px solid gray;
+    height: 65px;
+    width: 370px;
+    margin: 40px 0px ;
+    border-radius: 30px;
+
+}
+.Selected-countries button{
+    display: grid;
+    align-items: center;
+    width: 30px;
+    height: 30px;
+    margin: 15px;
+    border-radius: 11px;
+    background: #EB6440;
+    color: white;
+    border: none;
+    cursor: pointer;
+
+}
+.Selected-countries p{
+ font-size: 17px;
+}
+.text-container-results{
+    width: 400px;
+}

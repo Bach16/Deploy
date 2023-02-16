@@ -1,0 +1,31 @@
+.create{
+    color: #6c5b3f;
+    height: 100vh;    
+    background: #EFF5F5;
+}
+.create h1{
+    margin: 11px 0px;
+}
+.Inputs-Countainer{
+    display: flex;
+}
+.form button{
+    width: 30%;
+    height: 50px;
+    border: none;
+    border-radius: 8px;
+    color: white;
+    background-color: #EB6440;
+    padding: 0px;
+    font-weight: bold;
+    font-size: 18px;
+    cursor: pointer;
+    margin-top: 34px;
+    margin-bottom: 35px;
+}
+.form button:disabled{
+    color: #334142;
+    background-color: #D6E4E5;
+    cursor:default;
+}
+

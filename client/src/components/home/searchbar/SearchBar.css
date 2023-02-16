@@ -1,0 +1,15 @@
+.home-search-bar-container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.home-search-bar-container input{
+    height: 10px;
+    width: 600px;
+    padding: 15px;
+    border-radius: 7px;
+    border: none;
+}
+.home-search-bar-container input:focus{
+    outline: none;
+}

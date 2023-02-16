@@ -1,0 +1,47 @@
+.activity-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 1.5rem;
+}
+.detail{
+    background-color:#EFF5F5;
+    color: rgb(36, 36, 36);
+    min-height: 100vh;
+
+}
+.detail-country-card-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.detail-country-card{
+    background: white;
+    width: 50%;
+    border-radius: 20px;
+    padding: 2px 15px;
+    margin: 40px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+}
+.detail-text{
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    font-size: 20px;
+    margin: 20px 0px;
+}
+.detail-text-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+.detail-image-container img{
+    margin: 20px 10px;
+    width: 300px;
+    border-radius: 20px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.12), 0 1px 2px rgba(0,0,0,0.24);
+
+}
+.detail-image-div{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}   

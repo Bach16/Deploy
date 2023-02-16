@@ -1,0 +1,20 @@
+.navbar{
+    background: #497174;
+    color: white;
+    height: 85px;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    box-shadow: 0px 2px 6px rgba(0, 0, 0, 0.316);    
+}
+.navbar-left-element{
+    width: 15%;
+    text-align: right;
+}
+.navbar-right-element{
+    width: 15%;
+    text-align: left;
+
+
+}
+

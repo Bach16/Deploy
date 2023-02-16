@@ -1,0 +1,9 @@
+.FilterSortingBar{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 75px;
+    background: #f5fafa;
+    box-shadow: 0px 0.0005px 6px rgba(0, 0, 0, 0.316);    
+ 
+}
