@@ -23,7 +23,7 @@ export const SORT_ALPHABETICALLY= "SORT_ALPHABETICALLY";
 export const getCountries = () => {
     return function(dispatch){
         try {               
-            axios.get(`http://localhost:3001/countries`)
+            axios.get(`/countries`)
             .then((response) => dispatch({type:GET_COUNTRIES, payload: response.data}))                     
         } catch (error) {
             dispatch({type:ERROR, payload: error})
@@ -34,7 +34,7 @@ export const getCountries = () => {
 export const getCountry = (id) => {
     return function(dispatch){
         try {               
-            axios.get(`http://localhost:3001/countries/${id}`)
+            axios.get(`/countries/${id}`)
             .then((response) => dispatch({type:GET_COUNTRY_BY_ID, payload: response.data}))                     
         } catch (error) {
             dispatch({type:ERROR, payload: error})
@@ -72,7 +72,7 @@ export const deleteFormCountries = (country = []) => {
 export const getSeasons = () => {
     return function(dispatch){
         try {               
-            axios.get(`http://localhost:3001/seasons`)
+            axios.get(`/seasons`)
             .then((response) => dispatch({type:GET_SEASONS, payload: response.data}))                    
         } catch (error) {
             dispatch({type:ERROR, payload: error})
@@ -82,7 +82,7 @@ export const getSeasons = () => {
 export const postActivity = (activity) => {
     return function(dispatch){
         try {               
-            axios.post(`http://localhost:3001/activities`,activity)
+            axios.post(`/activities`,activity)
             .then((response) => dispatch({type:POST_ACTIVITY, payload: response.data}))                    
         } catch (error) {
             dispatch({type:ERROR, payload: error})
@@ -131,7 +131,7 @@ export const changeInputLength = (input) => {
 export const getActivities = () => {
     return function(dispatch){
         try {               
-            axios.get(`http://localhost:3001/activities`)
+            axios.get(`/activities`)
             .then((response) => dispatch({type:GET_ACTIVITIES, payload: response.data}))                    
         } catch (error) {
             console.log(error);
