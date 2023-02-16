@@ -5,7 +5,7 @@ import Home from "./components/home/Home"
 import Detail from "./components/details/Detail"
 import Create from "./components/form/Create"
 import axios from "axios"
-axios.defaults.baseURL = "http://localhost:3001/"
+axios.defaults.baseURL = "https://deploy-production-c88e.up.railway.app"
 
 
 function App() {
