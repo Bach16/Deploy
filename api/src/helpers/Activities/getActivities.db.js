@@ -6,7 +6,6 @@ const getActivitiesFromDB = async() => {
             model: Country,            
         }
     })
-
     return data
 }
 
